@@ -1,6 +1,10 @@
 use macroquad::prelude::*;
 
-use rusted_sand::environment::world::*;
+// Re-export colors for brevity and finer control down the line
+pub use macroquad::color::colors;
+
+mod environment;
+use environment::{world::World, element::*};
 
 const WORLD_WIDTH: i32 = 400;
 const WORLD_HEIGHT: i32 = 300;

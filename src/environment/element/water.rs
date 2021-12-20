@@ -1,13 +1,13 @@
-use crate::colors::BLANK;
+use crate::colors::BLUE;
 
 use crate::environment::element::{Element, ElementData, ElementKind};
 
-pub struct Air {}
-impl ElementData for Air {
+pub struct Water{}
+impl ElementData for Water {
 	fn new() -> Element {
 		Element {
-			kind: ElementKind::Air,
-			color: BLANK
+			kind: ElementKind::Water,
+			color: BLUE,
 		}
 	}
 
