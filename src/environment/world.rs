@@ -3,7 +3,7 @@ use crate::environment::ElementKind;
 
 #[derive(Debug)]
 pub struct Map {
-	elements: Vec<<Vec<Element>,
+	elements: Vec<<Vec<Element>>,
 	height: i32,
 }
 
